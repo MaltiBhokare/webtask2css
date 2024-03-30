@@ -1,0 +1,28 @@
+body {
+    background-color: #f0f0f0; 
+}
+
+.head {
+    color: darkblue; 
+}
+
+#bglime {
+    background-color: lime; 
+    color: red; 
+}
+
+#para {
+    color: green; 
+    font-size: 18px; 
+}
+
+ul li::before {
+    content: "•"; 
+    color: red; 
+    margin-right: 5px; 
+}
+
+ol li::before {
+    content: "here: "; 
+    color: blue; 
+}
